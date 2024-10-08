@@ -3,7 +3,7 @@ import request from "supertest";
 
 const app = express();
 app.use(express.json());
-app.use(express.urlencoded());
+app.use(express.urlencoded({ extended: false }));
 
 app.post('/json', (req, res) => {
     const name = req.body.name;
