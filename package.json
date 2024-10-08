@@ -15,7 +15,8 @@
     "supertest": "^7.0.0"
   },
   "dependencies": {
-    "express": "^4.21.0"
+    "express": "^4.21.0",
+    "express-fileupload": "^1.5.1"
   },
   "jest": {
     "transform": {
